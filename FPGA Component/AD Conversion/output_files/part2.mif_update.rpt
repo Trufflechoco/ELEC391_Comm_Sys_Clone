@@ -1,0 +1,74 @@
+MIF/HEX Update report for part2
+Tue Jun 20 15:11:24 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------+
+; MIF/HEX Update Summary                                    ;
++-----------------------+-----------------------------------+
+; MIF/HEX Update Status ; Failed - Tue Jun 20 15:11:24 2023 ;
+; Revision Name         ; part2                             ;
+; Top-level Entity Name ; part2                             ;
+; Family                ; Cyclone V                         ;
+; Device                ; 5CSEMA5F31C6                      ;
++-----------------------+-----------------------------------+
+
+
++--------------------------------+
+; MIF/HEX Update Processed Files ;
++--------------------------------+
+; File Name                      ;
++--------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Warning (125092): Tcl Script File ROM.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE ROM.qip
+Warning (125092): Tcl Script File memory.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE memory.qip
+Info: *******************************************************************
+Info: Running Quartus Prime MIF/HEX Update
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Tue Jun 20 15:11:24 2023
+Info: Command: quartus_cdb part2 -c part2 --update_mif
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Error (20015): Project contains unresolved partitions
+    Error (20016): Unresolved partition "<Top partition>"
+Error: Quartus Prime MIF/HEX Update was unsuccessful. 2 errors, 3 warnings
+    Error: Peak virtual memory: 4738 megabytes
+    Error: Processing ended: Tue Jun 20 15:11:24 2023
+    Error: Elapsed time: 00:00:00
+    Error: Total CPU time (on all processors): 00:00:00
+
+
