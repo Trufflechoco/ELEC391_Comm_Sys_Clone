@@ -1,0 +1,44 @@
+module buffer(in, out, clk, reset, enable);
+  input [23:0] in;
+  input enable;
+  input clk, reset;
+  output reg [3:0] out;
+
+  reg [2:0] ptr;
+  reg [2:0] next_ptr;
+
+  integer i;
+
+  reg [3:0] store [5:0];
+
+  always @(posedge clk) begin
+    if (reset) begin
+      ptr <= 5;
+      for (i = 0; i < 5; i = i + 1) begin
+        store[i] <= 4'b0000;
+      end
+    end else if (enable) begin
+       store[5] <= in[23:20];
+       store[4] <= in[19:16];
+       store[3] <= in[15:12];
+       store[2] <= in[11:8];
+       store[1] <= in[7:4];
+       store[0] <= in[3:0];
+       ptr <= 5;
+    end else begin
+      ptr <= next_ptr;
+    end
+  end
+
+  always @(*) begin
+    case (ptr)
+      3'd5 : begin out = store[ptr]; next_ptr = 3'd4; end
+      3'd4 : begin out = store[ptr]; next_ptr = 3'd3; end
+      3'd3 : begin out = store[ptr]; next_ptr = 3'd2; end
+      3'd2 : begin out = store[ptr]; next_ptr = 3'd1; end
+      3'd1 : begin out = store[ptr]; next_ptr = 3'd0; end
+      3'd0 : begin out = store[ptr]; next_ptr = 3'd0; end
+      default : begin out = 0; next_ptr = next_ptr; end
+    endcase
+  end
+endmodule

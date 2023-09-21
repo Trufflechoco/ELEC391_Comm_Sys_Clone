@@ -1,0 +1,274 @@
+C:/Users/alber/Desktop/FPGA_audio_starter/multiplierv2.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/multiplierv2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplierv2
+
+Top level modules:
+	multiplierv2
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/altera_UP_Slow_Clock_Generator_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/altera_UP_Slow_Clock_Generator_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module altera_UP_Slow_Clock_Generator_tb
+
+Top level modules:
+	altera_UP_Slow_Clock_Generator_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/part1.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/part1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module part1
+
+Top level modules:
+	part1
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_I2C_DC_Auto_Initialize
+
+Top level modules:
+	Altera_UP_I2C_DC_Auto_Initialize
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module transmitter_tb
+
+Top level modules:
+	transmitter_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/clock_generator.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/clock_generator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clock_generator
+
+Top level modules:
+	clock_generator
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_Slow_Clock_Generator
+
+Top level modules:
+	Altera_UP_Slow_Clock_Generator
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hamming_decoder_tb
+
+Top level modules:
+	hamming_decoder_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_Audio_Bit_Counter
+
+Top level modules:
+	Altera_UP_Audio_Bit_Counter
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/downsampler.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/downsampler.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module downsampler
+
+Top level modules:
+	downsampler
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/tester_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/tester_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tester_tb
+
+Top level modules:
+	tester_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/reciever.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/reciever.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reciever
+
+Top level modules:
+	reciever
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Modulator.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Modulator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module QPSK_Modulator
+
+Top level modules:
+	QPSK_Modulator
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/unbuffer.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/unbuffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module unbuffer
+
+Top level modules:
+	unbuffer
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/hamming_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/hamming_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hamming_tb
+
+Top level modules:
+	hamming_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Demodulator.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Demodulator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module QPSK_Demodulator
+
+Top level modules:
+	QPSK_Demodulator
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hamming_decoder
+
+Top level modules:
+	hamming_decoder
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/multiplier.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/seg.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/seg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg
+
+Top level modules:
+	seg
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/audio_codec.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/audio_codec.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module audio_codec
+
+Top level modules:
+	audio_codec
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/audio_and_video_config.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/audio_and_video_config.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module audio_and_video_config
+
+Top level modules:
+	audio_and_video_config
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/hamming_encoder.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/hamming_encoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hamming_encoder
+
+Top level modules:
+	hamming_encoder
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/comparator.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/comparator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/inverse_impulse_response.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/inverse_impulse_response.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module inverse_impulse_response
+
+Top level modules:
+	inverse_impulse_response
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+
+Top level modules:
+	Altera_UP_I2C_AV_Auto_Initialize
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/clock_delay.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/clock_delay.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clock_delay
+
+Top level modules:
+	clock_delay
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/buffer.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_I2C
+
+Top level modules:
+	Altera_UP_I2C
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Clock_Edge.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Clock_Edge.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_Clock_Edge
+
+Top level modules:
+	Altera_UP_Clock_Edge
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_SYNC_FIFO
+
+Top level modules:
+	Altera_UP_SYNC_FIFO
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module QPSK_tb
+
+Top level modules:
+	QPSK_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/multiplier_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/multiplier_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier_tb
+
+Top level modules:
+	multiplier_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module buffering_tb
+
+Top level modules:
+	buffering_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/impulse_response.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/impulse_response.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module impulse_response
+
+Top level modules:
+	impulse_response
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/transmitter.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/transmitter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module transmitter
+
+Top level modules:
+	transmitter
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module transmitter_reciever_tb
+
+Top level modules:
+	transmitter_reciever_tb
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_Audio_In_Deserializer
+
+Top level modules:
+	Altera_UP_Audio_In_Deserializer
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_Audio_Out_Serializer
+
+Top level modules:
+	Altera_UP_Audio_Out_Serializer
+
+} {} {}} C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v {1 {vlog -work work -stats=none C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Altera_UP_I2C_LCM_Auto_Initialize
+
+Top level modules:
+	Altera_UP_I2C_LCM_Auto_Initialize
+
+} {} {}}

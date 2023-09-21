@@ -1,0 +1,18 @@
+module altera_UP_Slow_Clock_Generator_tb();
+  reg clk, reset, enable_clk;
+
+  wire new_clk, rising_edge, falling_edge, middle_of_low_level, middle_of_high_level;
+
+  Altera_UP_Slow_Clock_Generator DUT(clk, reset, enable_clk, new_clk, rising_edge, falling_edge, middle_of_high_level, middle_of_low_level);
+
+  initial begin
+    reset = 1; enable_clk = 0; #10;
+    reset = 0; enable_clk = 1; #10;
+    #200000; $stop;
+  end
+
+  always begin
+    clk = 0; #5; clk = 1; #5;
+  end
+
+endmodule

@@ -1,0 +1,15 @@
+module comparator(in1, in2, out,);
+  input [15:0] in1, in2;
+  output reg [15:0] out;
+
+  always @(*) begin
+    if (in1[15] > in2[15]) 
+      out = in2;
+    else if (in2[15] > in1[15]) 
+      out = in1;
+    else if (in1[14:0] > in2[14:0])
+      out = in1;
+    else
+      out = in2;
+  end
+endmodule

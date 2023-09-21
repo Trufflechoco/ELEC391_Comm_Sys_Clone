@@ -1,0 +1,45 @@
+module buffering_tb ();
+  reg clk_1, clk_2, reset, write;
+  reg [23:0] in;
+  wire [23:0] out;
+  wire [3:0] buffer_wire;
+  wire [2:0] state_1, state_2;
+
+  buffer buffer(in, buffer_wire, clk_1, reset, write);
+  unbuffer unbuffer(buffer_wire, out, clk_2, reset, write);
+
+  assign state_1 = buffer.ptr;
+  assign state_2 = unbuffer.ptr;
+
+  initial begin
+    in = 0; reset = 1; write = 0; #10;
+
+    reset = 0; write = 1; in = 24'b1011_1001_1000_1110_1010_0001; #10;
+    write = 0; #50;
+
+    in = 0; write = 1; #10;
+    write = 0; #50;
+
+    write = 1; in = 24'b1011_1001_1000_1110_1010_0001; #10;
+    write = 0; #50;
+
+    in = 0; write = 1; #10;
+    write = 0; #50;
+
+    write = 1; in = 24'b1011_1001_1000_1110_1010_0001; #10;
+    write = 0; #100; $stop; 
+
+  end
+
+  initial begin
+    clk_2 = 0; clk_2 = 1; #10;
+    clk_2 = 0; #10;
+    forever begin
+      clk_2 = 0; #5; clk_2 = 1; #5;
+    end
+  end
+
+  always begin
+    clk_1 = 0; #5; clk_1 = 1; #5;
+  end
+endmodule

@@ -1,0 +1,66 @@
+module clock_generator_288kHz(
+	clk,
+	reset,
+	
+	enable_clk,
+
+	new_clk,
+);
+
+parameter COUNTER_BITS	= 10;
+parameter COUNTER_INC	= 10'h001;
+
+input				clk;
+input				reset;
+
+input				enable_clk;
+	
+// Bidirectionals
+
+// Outputs
+output	reg			new_clk;
+
+
+
+/*****************************************************************************
+ *                           Constant Declarations                           *
+ *****************************************************************************/
+
+/*****************************************************************************
+ *                 Internal wires and registers Declarations                 *
+ *****************************************************************************/
+
+// Internal Wires
+
+// Internal Registers
+reg			[COUNTER_BITS:1]	clk_counter;
+
+// State Machine Registers
+
+/*****************************************************************************
+ *                         Finite State Machine(s)                           *
+ *****************************************************************************/
+
+
+/*****************************************************************************
+ *                             Sequential logic                              *
+ *****************************************************************************/
+
+always @(posedge clk)
+begin
+	if (reset == 1'b1)
+		clk_counter	<= {COUNTER_BITS{1'b0}};
+	else if (enable_clk == 1'b1)
+		clk_counter	<= clk_counter + COUNTER_INC;
+end
+
+always @(posedge clk)
+begin
+	if (reset == 1'b1)
+		new_clk	<= 1'b0;
+	else
+		new_clk	<= clk_counter[COUNTER_BITS];
+end
+
+
+endmodule
