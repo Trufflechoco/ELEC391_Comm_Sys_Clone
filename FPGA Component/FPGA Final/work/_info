@@ -1,0 +1,1211 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/alber/Desktop
+vAccumulator
+Z0 !s110 1684962217
+!i10b 1
+!s100 B68OZ8Tg<f4V<Il]7R]080
+In@Dd4dRczhZRL>J?o0LQc1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/alber/Desktop/FPGA_audio_starter
+w1684863674
+8C:/Users/alber/Desktop/FPGA_audio_starter/Accumulator.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Accumulator.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1684962217.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Accumulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Accumulator.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@accumulator
+vAltera_UP_Audio_Bit_Counter
+!s110 1687324752
+!i10b 1
+!s100 J2Tb5SPZN>>^6S@MM9o:c1
+IOUbQ_h7HZKi;WmR^4nU>@1
+R1
+R2
+w1684352021
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v
+Z7 L0 49
+R3
+r1
+!s85 0
+31
+!s108 1687324752.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Bit_Counter.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@audio_@bit_@counter
+vAltera_UP_Audio_In_Deserializer
+Z8 !s110 1687324753
+!i10b 1
+!s100 MnK8@IQLcda;1gGBW7@Tz0
+I@h>Zk8i?R>kK`O^P0Nb<=2
+R1
+R2
+Z9 w1684352022
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v
+Z10 L0 47
+R3
+r1
+!s85 0
+31
+Z11 !s108 1687324753.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_In_Deserializer.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@audio_@in_@deserializer
+vAltera_UP_Audio_Out_Serializer
+R8
+!i10b 1
+!s100 BllhdjOFFm6Rj]o@Xid882
+InYlP;UHM@><=o6o[<1m^^2
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v
+R10
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Audio_Out_Serializer.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@audio_@out_@serializer
+vAltera_UP_Clock_Edge
+R8
+!i10b 1
+!s100 XaX6^HY04T3X?D32?HdN>2
+I7dlH?1VG]Q5mzgR?6][bk3
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Clock_Edge.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Clock_Edge.v
+Z12 L0 48
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Clock_Edge.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Clock_Edge.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@clock_@edge
+vAltera_UP_I2C
+R8
+!i10b 1
+!s100 JU94J3RToJ0DChmlIi^B43
+I>gD_g4mZR4Z@3P[znU4ef0
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C.v
+R12
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@i2@c
+vAltera_UP_I2C_AV_Auto_Initialize
+R8
+!i10b 1
+!s100 TbIA;9787GSRoV9be_N2^2
+I`L2ziHBHlR6KLHS71K;F63
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v
+R12
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_AV_Auto_Initialize.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@i2@c_@a@v_@auto_@initialize
+vAltera_UP_I2C_DC_Auto_Initialize
+R8
+!i10b 1
+!s100 WaG<YW8VGFlT:ijQ;9gO?3
+IfcY7cU2jMn0z5I9?8d<Hz1
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v
+R12
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_DC_Auto_Initialize.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@i2@c_@d@c_@auto_@initialize
+vAltera_UP_I2C_LCM_Auto_Initialize
+R8
+!i10b 1
+!s100 Jn038;8oQ^Ukg7ZXlQdT33
+IEaPGi]AmTYFk4^8kFBfA@3
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v
+R12
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_I2C_LCM_Auto_Initialize.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@i2@c_@l@c@m_@auto_@initialize
+vAltera_UP_Slow_Clock_Generator
+R8
+!i10b 1
+!s100 U@B3NehPQRXcdeI<e=@I53
+IF:Wz]hWdm6mKSF`mdf53j0
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v
+L0 53
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_Slow_Clock_Generator.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@slow_@clock_@generator
+valtera_UP_Slow_Clock_Generator_tb
+Z13 !s110 1687324755
+!i10b 1
+!s100 fW[kClX^]6F[>iX=P7N;?2
+I837;;;:X3l^E4ah8@czY90
+R1
+R2
+w1687279064
+8C:/Users/alber/Desktop/FPGA_audio_starter/altera_UP_Slow_Clock_Generator_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/altera_UP_Slow_Clock_Generator_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z14 !s108 1687324755.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/altera_UP_Slow_Clock_Generator_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/altera_UP_Slow_Clock_Generator_tb.v|
+!i113 1
+R5
+R6
+naltera_@u@p_@slow_@clock_@generator_tb
+vAltera_UP_SYNC_FIFO
+R8
+!i10b 1
+!s100 jDg=^5VOBFbFho_;gZbiA1
+I;WmIejiL[zIUe7LOKkFoS3
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v
+R10
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Altera_UP_SYNC_FIFO.v|
+!i113 1
+R5
+R6
+n@altera_@u@p_@s@y@n@c_@f@i@f@o
+vaudio_and_video_config
+R8
+!i10b 1
+!s100 z3>_mDg4hMjn4VjXHn00U3
+Ij9Z:4]?:EDVn0LDCi72[<2
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/audio_and_video_config.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/audio_and_video_config.v
+R7
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/audio_and_video_config.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/audio_and_video_config.v|
+!i113 1
+R5
+R6
+vaudio_codec
+R8
+!i10b 1
+!s100 43h1ad@K@aG98IRVc4i1M1
+I2=kENg9YjBiSFihl19Hia3
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/audio_codec.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/audio_codec.v
+R7
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/audio_codec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/audio_codec.v|
+!i113 1
+R5
+R6
+vavg_filter
+!s110 1684880517
+!i10b 1
+!s100 CVU]lTh1O7PBb@4DCok[=0
+ILTha5nRJRcd7UTYOmg^]H2
+R1
+R2
+w1684880507
+Z15 8C:/Users/alber/Desktop/FPGA_audio_starter/part1.v
+Z16 FC:/Users/alber/Desktop/FPGA_audio_starter/part1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1684880517.000000
+Z17 !s107 C:/Users/alber/Desktop/FPGA_audio_starter/part1.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/part1.v|
+!i113 1
+R5
+R6
+vbuffer
+R13
+!i10b 1
+!s100 MYo^0aWoMB5hgZjhPT?I11
+I<:[>R1mK9WNgkf5DOCd:=0
+R1
+R2
+w1687290502
+8C:/Users/alber/Desktop/FPGA_audio_starter/buffer.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/buffer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/buffer.v|
+!i113 1
+R5
+R6
+vbuffering_tb
+R13
+!i10b 1
+!s100 8[jCVgin6T[Hj>P?[a]HI2
+Ibk0=Ho6HhV[DnVVWzzbW`3
+R1
+R2
+w1687289645
+8C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v|
+!i113 1
+R5
+R6
+vclock_delay
+!s110 1687325591
+!i10b 1
+!s100 8zOFRVZ_<;0MdP>AWgU9]1
+IHGm@kYPa5oIL0<Q<z:F7?2
+R1
+R2
+w1687325490
+8C:/Users/alber/Desktop/FPGA_audio_starter/clock_delay.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/clock_delay.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687325591.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/clock_delay.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/clock_delay.v|
+!i113 1
+R5
+R6
+vclock_generator
+Z19 !s110 1687324754
+!i10b 1
+!s100 39OA<gKn`aijkLgT:8]8i2
+IfC@CKbTWImAHbAP4EfGZ11
+R1
+R2
+R9
+8C:/Users/alber/Desktop/FPGA_audio_starter/clock_generator.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/clock_generator.v
+R12
+R3
+r1
+!s85 0
+31
+Z20 !s108 1687324754.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/clock_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/clock_generator.v|
+!i113 1
+R5
+R6
+vcomparator
+R13
+!i10b 1
+!s100 IlUkHYC6R;9G_WjGIjYX]2
+IlM]7M`BdQaMO`Dg:7oRB[3
+R1
+R2
+w1687127732
+8C:/Users/alber/Desktop/FPGA_audio_starter/comparator.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/comparator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/comparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/comparator.v|
+!i113 1
+R5
+R6
+vdownsampler
+!s110 1687327373
+!i10b 1
+!s100 M98:PcS0HBj>Ql3om@o?M3
+IM:QG3ZELoIRQLRJRze:=d3
+R1
+R2
+w1687326369
+8C:/Users/alber/Desktop/FPGA_audio_starter/downsampler.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/downsampler.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687327372.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/downsampler.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/downsampler.v|
+!i113 1
+R5
+R6
+vFIFO_Module
+!s110 1684869488
+!i10b 1
+!s100 Qf@];@Ddhb:kHBZQ?NC7Q2
+I>Hb5>D@ICSbhzj_Y^CQUI1
+R1
+R2
+w1684821413
+8C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Module.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Module.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1684869488.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Module.v|
+!i113 1
+R5
+R6
+n@f@i@f@o_@module
+vFIFO_Module_tb
+!s110 1684985727
+!i10b 1
+!s100 JT_IB9A3P=d:O<NhK<IH21
+I>;:l@;lSi<9f_8fh^gMbU1
+R1
+R2
+w1684985719
+8C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Module_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Module_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1684985727.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Module_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Module_tb.v|
+!i113 1
+R5
+R6
+n@f@i@f@o_@module_tb
+vFIFO_Quartus
+Z21 !s110 1684962218
+!i10b 1
+!s100 Pkk86i<jfl96j]RL>]<^I1
+IWYPCNoQJH@M8P]_G6[=723
+R1
+R2
+w1684850553
+8C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Quartus.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Quartus.v
+Z22 L0 40
+R3
+r1
+!s85 0
+31
+Z23 !s108 1684962218.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Quartus.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Quartus.v|
+!i113 1
+R5
+R6
+n@f@i@f@o_@quartus
+vFIFO_Quartus_2
+R21
+!i10b 1
+!s100 _<ccSh@ICIVaeJk50:GQF0
+IK?XZ3]AHha]9=QZzAg?3e3
+R1
+R2
+w1684864122
+8C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Quartus_2.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Quartus_2.v
+R22
+R3
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Quartus_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/FIFO_Quartus_2.v|
+!i113 1
+R5
+R6
+n@f@i@f@o_@quartus_2
+vflip_flop
+R21
+!i10b 1
+!s100 F6bPz9gf@k]J:edWeL3M70
+IAbfmU]9_J^IT;]:z?`?b[2
+R1
+R2
+w1684804572
+8C:/Users/alber/Desktop/FPGA_audio_starter/flip_flop.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/flip_flop.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/flip_flop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/flip_flop.v|
+!i113 1
+R5
+R6
+vflipper_flopper
+R21
+!i10b 1
+!s100 ]OISiSE>b9N`I>;HfP<;k3
+IKL@:@jDnbB7j^M[^^V0g31
+R1
+R2
+Z24 w1684804887
+8C:/Users/alber/Desktop/FPGA_audio_starter/flipper_flopper.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/flipper_flopper.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/flipper_flopper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/flipper_flopper.v|
+!i113 1
+R5
+R6
+vfloat_multiplier
+!s110 1687123749
+!i10b 1
+!s100 akZ<J2;]FPTL2R;VNU`HV0
+IWz0=c`4KXPL[Snz^I2Jzk1
+R1
+R2
+w1686846424
+8C:/Users/alber/Desktop/FPGA_audio_starter/float_multiplier.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/float_multiplier.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687123749.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/float_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/float_multiplier.v|
+!i113 1
+R5
+R6
+vhamming_decoder
+R19
+!i10b 1
+!s100 <4zU`HJRXLK_Ac`2<7F?P3
+IYUgVYmae@33<M7^600=k`0
+R1
+R2
+w1686762740
+8C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder.v|
+!i113 1
+R5
+R6
+vhamming_decoder_tb
+R19
+!i10b 1
+!s100 ?KZ>mm>?VhBZA4R4:T?f]0
+If8TJhUi]Y8a@bRIzFMII50
+R1
+R2
+w1686764850
+8C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/hamming_decoder_tb.v|
+!i113 1
+R5
+R6
+vhamming_encoder
+R19
+!i10b 1
+!s100 gT^dUb5C1<0ES;nc81?Az3
+I^hN?Jb[YdZ0?=hgd`]j2Y1
+R1
+R2
+w1686762502
+8C:/Users/alber/Desktop/FPGA_audio_starter/hamming_encoder.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/hamming_encoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/hamming_encoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/hamming_encoder.v|
+!i113 1
+R5
+R6
+vhamming_tb
+R19
+!i10b 1
+!s100 42XPF4j9B;;g?dCho4bfL2
+I>z@_6TiUN@VWmX^5jRmd52
+R1
+R2
+w1686332385
+8C:/Users/alber/Desktop/FPGA_audio_starter/hamming_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/hamming_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/hamming_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/hamming_tb.v|
+!i113 1
+R5
+R6
+vimpulse_response
+R19
+!i10b 1
+!s100 0R9Eh=i`k3ifnP^0F45EX3
+IK6Xj^ziQjAOcf<XzA0U?M3
+R1
+R2
+w1687144941
+8C:/Users/alber/Desktop/FPGA_audio_starter/impulse_response.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/impulse_response.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/impulse_response.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/impulse_response.v|
+!i113 1
+R5
+R6
+vinverse_impulse_response
+R13
+!i10b 1
+!s100 _UzXISSe6I[H7kE3iX^ek1
+ISYaP0JQ:2VY?b7W=:i2Ol3
+R1
+R2
+w1687145921
+8C:/Users/alber/Desktop/FPGA_audio_starter/inverse_impulse_response.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/inverse_impulse_response.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/inverse_impulse_response.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/inverse_impulse_response.v|
+!i113 1
+R5
+R6
+vmultiplier
+!s110 1687330527
+!i10b 1
+!s100 Z5`RUZMk8EioT8Ozoki5E1
+I1iUFH@0^Ia=cOgYmoY8mC1
+R1
+R2
+w1687330526
+8C:/Users/alber/Desktop/FPGA_audio_starter/multiplier.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/multiplier.v
+L0 13
+R3
+r1
+!s85 0
+31
+!s108 1687330527.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/multiplier.v|
+!i113 1
+R5
+R6
+vmultiplier_tb
+R13
+!i10b 1
+!s100 ]88F@a7ECW?mJhEIUemli1
+I6MfLIg4^d`6>Z2dXfJSJ80
+R1
+R2
+w1687311841
+8C:/Users/alber/Desktop/FPGA_audio_starter/multiplier_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/multiplier_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/multiplier_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/multiplier_tb.v|
+!i113 1
+R5
+R6
+vmultiplierv2
+!s110 1687331169
+!i10b 1
+!s100 G<7HJR2ghC=zZnVMM6^0K1
+I0jC<7YOZ3EPFjN5hbFC<z2
+R1
+R2
+w1687331164
+8C:/Users/alber/Desktop/FPGA_audio_starter/multiplierv2.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/multiplierv2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687331169.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/multiplierv2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/multiplierv2.v|
+!i113 1
+R5
+R6
+vnoise_generator
+R21
+!i10b 1
+!s100 ezD6WlhHSGi5[XNG?25451
+IlmKEI3C`b2WdUoNYO0jNc1
+R1
+R2
+w1684865983
+8C:/Users/alber/Desktop/FPGA_audio_starter/noise_generator.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/noise_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/noise_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/noise_generator.v|
+!i113 1
+R5
+R6
+vpart1
+!s110 1687330823
+!i10b 1
+!s100 iSeL61QQWZ0FYK43LiET;0
+IA0jgZM;7@aKJ:0nDRV[7H1
+R1
+R2
+w1687330816
+R15
+R16
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687330823.000000
+R17
+R18
+!i113 1
+R5
+R6
+vPart2_Circuit
+R0
+!i10b 1
+!s100 J:kf2ch73`kU68>fC`XOU1
+I?S3aKHbGJ3jfNC]4`ggWL3
+R1
+R2
+w1684962107
+8C:/Users/alber/Desktop/FPGA_audio_starter/Part2_Circuit.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Part2_Circuit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Part2_Circuit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Part2_Circuit.v|
+!i113 1
+R5
+R6
+n@part2_@circuit
+vPart2_Circuit_tb
+R21
+!i10b 1
+!s100 eA7?>`]cRAAUko^NSX]7V2
+IJMT_CaSB]S`I3SJ8:[Di31
+R1
+R2
+w1684809203
+8C:/Users/alber/Desktop/FPGA_audio_starter/Part2_Circuit_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Part2_Circuit_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Part2_Circuit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Part2_Circuit_tb.v|
+!i113 1
+R5
+R6
+n@part2_@circuit_tb
+vPart3_Circuit
+R0
+!i10b 1
+!s100 N2QUZ?^2Z?1aGY>mckYe30
+I48STV@TZ?[bWUz^XNM9[;1
+R1
+R2
+w1684961329
+8C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit.v|
+!i113 1
+R5
+R6
+n@part3_@circuit
+vPart3_Circuit_2
+R21
+!i10b 1
+!s100 O7RHbl4>YF8n>V@m8A]Ta2
+ImIE2eCf9Dm6i2G[=`zHKG2
+R1
+R2
+w1684864898
+8C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit_2.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit_2.v|
+!i113 1
+R5
+R6
+n@part3_@circuit_2
+vPart3_Circuit_tb
+!s110 1684986088
+!i10b 1
+!s100 XP;CQFfjK9`CE[`_USP9l2
+IDLT[1XZXkXe7Ue1<g]=?A1
+R1
+R2
+w1684986080
+8C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1684986088.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Part3_Circuit_tb.v|
+!i113 1
+R5
+R6
+n@part3_@circuit_tb
+vQPSK_Demodulator
+R19
+!i10b 1
+!s100 ?gMH;[IgN0ij2jM;_@3PH3
+I6@SQGDlz_<;WFgSD;U^TF2
+R1
+R2
+w1686853953
+8C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Demodulator.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Demodulator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Demodulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Demodulator.v|
+!i113 1
+R5
+R6
+n@q@p@s@k_@demodulator
+vQPSK_Modulator
+!s110 1687326227
+!i10b 1
+!s100 [NiHRd[iCPVj>B_SLcYYn2
+IZ828BnzGQChQ<<;YT_baF0
+R1
+R2
+w1686853894
+8C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Modulator.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Modulator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687326227.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Modulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_Modulator.v|
+!i113 1
+R5
+R6
+n@q@p@s@k_@modulator
+vQPSK_tb
+R19
+!i10b 1
+!s100 BeD3=7Z6NDI@EMFmemCf=2
+IV76S5WD3:^INN=nWWd=^Y1
+R1
+R2
+w1686853975
+8C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/QPSK_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/QPSK_tb.v|
+!i113 1
+R5
+R6
+n@q@p@s@k_tb
+vreciever
+!s110 1687331216
+!i10b 1
+!s100 cB_<V]<zS`2ec95h:3bjT0
+I=C7b2]P;eWmggz1oXB;go2
+R1
+R2
+w1687331206
+8C:/Users/alber/Desktop/FPGA_audio_starter/reciever.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/reciever.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687331216.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/reciever.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/reciever.v|
+!i113 1
+R5
+R6
+vseg
+R13
+!i10b 1
+!s100 0^gim=Q5hgNV]2RFnlXcH0
+INHd<MflOXN9o1jU[dB;TJ2
+R1
+R2
+w1687284535
+8C:/Users/alber/Desktop/FPGA_audio_starter/seg.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/seg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/seg.v|
+!i113 1
+R5
+R6
+vtester
+!s110 1687133968
+!i10b 1
+!s100 U9E2hC<ITjVfHFa=C:hY[2
+I4012QRlzZ51<P1ViH;nW30
+R1
+R2
+w1687133962
+8C:/Users/alber/Desktop/FPGA_audio_starter/tester.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/tester.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687133968.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/tester.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/tester.v|
+!i113 1
+R5
+R6
+vtester_tb
+R13
+!i10b 1
+!s100 fAKlOFU9[C17l`OAn45hi3
+I;6NCa4EOaTK<nCLhf@m_^0
+R1
+R2
+w1687138033
+8C:/Users/alber/Desktop/FPGA_audio_starter/tester_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/tester_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/tester_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/tester_tb.v|
+!i113 1
+R5
+R6
+vtransmitter
+R19
+!i10b 1
+!s100 l<ZIKOiJ3bGH4m>D2Vfce2
+IhbV0=Zg^QLzlhC<c_=J7k2
+R1
+R2
+w1687304907
+8C:/Users/alber/Desktop/FPGA_audio_starter/transmitter.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/transmitter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/transmitter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/transmitter.v|
+!i113 1
+R5
+R6
+vtransmitter_reciever_tb
+!s110 1687330282
+!i10b 1
+!s100 PjJleZ8G4^ZGZN9@d0^kH1
+I`o>[cj@JSTeX]W4`P^E3U1
+R1
+R2
+w1687330279
+8C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1687330282.000000
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v|
+!i113 1
+R5
+R6
+vtransmitter_tb
+R19
+!i10b 1
+!s100 A=TJCcaHj=TTJ6IN@zARn0
+IDlf2h7[^5IhUYKj0B2A9K0
+R1
+R2
+w1687300077
+8C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_tb.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/transmitter_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_tb.v|
+!i113 1
+R5
+R6
+vunbuffer
+R13
+!i10b 1
+!s100 _8^cW=1iFAEOoB3C9<heR1
+IRI7U9P3o?U873XN?Alin53
+R1
+R2
+w1687290497
+8C:/Users/alber/Desktop/FPGA_audio_starter/unbuffer.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/unbuffer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/unbuffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/unbuffer.v|
+!i113 1
+R5
+R6
+vYour_Circuit
+R21
+!i10b 1
+!s100 AX::K?4l192aE?=6dV58>3
+IW7W7Qnd=RKaZooE11cOKX2
+R1
+R2
+R24
+8C:/Users/alber/Desktop/FPGA_audio_starter/Your_Circuit.v
+FC:/Users/alber/Desktop/FPGA_audio_starter/Your_Circuit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/alber/Desktop/FPGA_audio_starter/Your_Circuit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alber/Desktop/FPGA_audio_starter/Your_Circuit.v|
+!i113 1
+R5
+R6
+n@your_@circuit
