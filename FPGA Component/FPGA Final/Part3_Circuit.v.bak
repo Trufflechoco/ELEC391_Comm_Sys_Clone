@@ -1,0 +1,33 @@
+module Part3_Circuit(data_in, clk, reset, data_out, read_ready, write_ready);
+	input [23:0] data_in;
+	input clk, reset, read_ready, write_Ready;
+	output reg [23:0] data_out;
+	
+	wire [23:0] data_in_FIFO, data_out_FIFO;
+	wire [23:0] accumulate_in, accumulate_out;
+        reg rdreq;
+	reg [2:0] counter;
+
+	assign data_in_FIFO = data_in >> 3;
+
+	FIFO_Quartus FIFO_Quartus(.clock(clk),.data(data_in_FIFO),.sclr(reset),.wrreq(read_ready),.rdreq(rdreq),.q(data_out_FIFO));
+
+	always @(posedge clk) begin
+	  if (reset) begin
+	    data_out <= 0;
+	    rdreq <= 0;
+	    counter <= 0;
+	  end else begin
+	    data_out <= data_in_FIFO + accumulate_out - data_out_FIFO;
+	    if (counter != 3'b110) begin
+	      counter <= counter + 1;
+	    end else begin
+	      rdreq <= 1'b1;
+	    end
+	  end
+	end
+	
+	assign accumulate_in = data_in_FIFO - data_out_FIFO;
+
+	Accumulator Accumulator(.clk(clk),.clear(reset),.d(accumulate_in),.q(accumulate_out));
+endmodule

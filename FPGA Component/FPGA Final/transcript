@@ -1,0 +1,990 @@
+# Compile of inverse_impulse_response.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:18:14 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:18:40 on Jun 20,2023, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of part1.v was successful.
+# Compile of Altera_UP_Audio_Bit_Counter.v was successful.
+# Compile of Altera_UP_Audio_In_Deserializer.v was successful.
+# Compile of Altera_UP_Audio_Out_Serializer.v was successful.
+# Compile of Altera_UP_Clock_Edge.v was successful.
+# Compile of Altera_UP_I2C.v was successful.
+# Compile of Altera_UP_I2C_AV_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_DC_Auto_Initialize.v was successful.
+# Compile of Altera_UP_I2C_LCM_Auto_Initialize.v was successful.
+# Compile of Altera_UP_Slow_Clock_Generator.v was successful.
+# Compile of Altera_UP_SYNC_FIFO.v was successful.
+# Compile of audio_and_video_config.v was successful.
+# Compile of audio_codec.v was successful.
+# Compile of clock_generator.v was successful.
+# Compile of hamming_encoder.v was successful.
+# Compile of hamming_decoder.v was successful.
+# Compile of hamming_tb.v was successful.
+# Compile of QPSK_Modulator.v was successful.
+# Compile of QPSK_Demodulator.v was successful.
+# Compile of QPSK_tb.v was successful.
+# Compile of hamming_decoder_tb.v was successful.
+# Compile of transmitter.v was successful.
+# Compile of impulse_response.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of reciever.v was successful.
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of comparator.v was successful.
+# Compile of tester_tb.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of inverse_impulse_response.v was successful.
+# Compile of buffer.v was successful.
+# Compile of unbuffer.v was successful.
+# Compile of buffering_tb.v was successful.
+# Compile of altera_UP_Slow_Clock_Generator_tb.v was successful.
+# Compile of seg.v was successful.
+# Compile of multiplier_tb.v was successful.
+# Compile of multiplierv2.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 39 compiles, 0 failed with no errors.
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:19:20 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:19:40 on Jun 20,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:19:57 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:20:32 on Jun 20,2023, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:20:51 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:21:08 on Jun 20,2023, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:22:05 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:22:33 on Jun 20,2023, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:24:21 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:25:27 on Jun 20,2023, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:25:31 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 600 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:25:48 on Jun 20,2023, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:28:05 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 600 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:28:24 on Jun 20,2023, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:28:43 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 600 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:29:20 on Jun 20,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:30:05 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:30:25 on Jun 20,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:31:34 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:32:01 on Jun 20,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:32:26 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:33:03 on Jun 20,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# Compile of clock_delay.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:33:12 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(31)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 31
+quit -sim
+# End time: 22:36:24 on Jun 20,2023, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:36:56 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(32)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 32
+quit -sim
+# End time: 22:37:28 on Jun 20,2023, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:38:09 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/clk_4 \
+sim:/transmitter_reciever_tb/clk_5 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(33)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 33
+quit -sim
+# End time: 22:39:19 on Jun 20,2023, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:39:40 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/clk_4 \
+sim:/transmitter_reciever_tb/clk_5 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(28)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 28
+quit -sim
+# End time: 22:40:21 on Jun 20,2023, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:40:34 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/clk_4 \
+sim:/transmitter_reciever_tb/clk_5 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(30)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 30
+quit -sim
+# End time: 22:41:44 on Jun 20,2023, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+# Compile of downsampler.v was successful.
+# 2 compiles, 0 failed with no errors.
+quit -sim
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:42:21 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/clk_4 \
+sim:/transmitter_reciever_tb/clk_5 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(30)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 30
+quit -sim
+# End time: 22:42:49 on Jun 20,2023, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+# Compile of QPSK_Modulator.v was successful.
+# Compile of transmitter_reciever_tb.v failed with 1 errors.
+# Compile of transmitter_reciever_tb.v was successful.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:44:13 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/clk_4 \
+sim:/transmitter_reciever_tb/clk_5 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(30)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 30
+quit -sim
+# End time: 22:45:06 on Jun 20,2023, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 22:45:15 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/clk_4 \
+sim:/transmitter_reciever_tb/clk_5 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(30)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 30
+quit -sim
+# End time: 22:45:53 on Jun 20,2023, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# Compile of part1.v was successful.
+# Compile of downsampler.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim buffering_tb
+# vsim buffering_tb 
+# Start time: 23:02:56 on Jun 20,2023
+# Loading work.buffering_tb
+# Loading work.buffer
+# Loading work.unbuffer
+add wave -position insertpoint  \
+sim:/buffering_tb/clk_1 \
+sim:/buffering_tb/clk_2 \
+sim:/buffering_tb/reset \
+sim:/buffering_tb/write \
+sim:/buffering_tb/in \
+sim:/buffering_tb/out \
+sim:/buffering_tb/buffer_wire \
+sim:/buffering_tb/state_1 \
+sim:/buffering_tb/state_2
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v(30)
+#    Time: 410 ps  Iteration: 0  Instance: /buffering_tb
+# Break in Module buffering_tb at C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v line 30
+quit -sim
+# End time: 23:04:07 on Jun 20,2023, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 23:04:14 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out \
+sim:/transmitter_reciever_tb/clk_1 \
+sim:/transmitter_reciever_tb/clk_2 \
+sim:/transmitter_reciever_tb/clk_3 \
+sim:/transmitter_reciever_tb/clk_4 \
+sim:/transmitter_reciever_tb/clk_5 \
+sim:/transmitter_reciever_tb/read
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(30)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 30
+quit -sim
+# End time: 23:05:05 on Jun 20,2023, Elapsed time: 0:00:51
+# Errors: 1, Warnings: 0
+vsim buffering_tb
+# vsim buffering_tb 
+# Start time: 23:07:55 on Jun 20,2023
+# Loading work.buffering_tb
+# Loading work.buffer
+# Loading work.unbuffer
+add wave -position insertpoint  \
+sim:/buffering_tb/clk_1 \
+sim:/buffering_tb/clk_2 \
+sim:/buffering_tb/reset \
+sim:/buffering_tb/write \
+sim:/buffering_tb/in \
+sim:/buffering_tb/out \
+sim:/buffering_tb/buffer_wire \
+sim:/buffering_tb/state_1 \
+sim:/buffering_tb/state_2
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v(30)
+#    Time: 410 ps  Iteration: 0  Instance: /buffering_tb
+# Break in Module buffering_tb at C:/Users/alber/Desktop/FPGA_audio_starter/buffering_tb.v line 30
+quit -sim
+# End time: 23:08:33 on Jun 20,2023, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# Compile of part1.v was successful.
+# Compile of part1.v was successful.
+# Compile of part1.v was successful.
+# Compile of part1.v failed with 1 errors.
+# Compile of part1.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of multiplier.v was successful.
+vsim multiplier_tb
+# vsim multiplier_tb 
+# Start time: 23:26:27 on Jun 20,2023
+# Loading work.multiplier_tb
+# Loading work.multiplier
+# Loading work.multiplierv2
+add wave -position insertpoint  \
+sim:/multiplier_tb/in1 \
+sim:/multiplier_tb/in2 \
+sim:/multiplier_tb/out1 \
+sim:/multiplier_tb/out2
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/multiplier_tb.v(15)
+#    Time: 35 ps  Iteration: 0  Instance: /multiplier_tb
+# Break in Module multiplier_tb at C:/Users/alber/Desktop/FPGA_audio_starter/multiplier_tb.v line 15
+quit -sim
+# End time: 23:27:03 on Jun 20,2023, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# Compile of part1.v failed with 4 errors.
+# Compile of part1.v failed with 2 errors.
+# Compile of part1.v failed with 2 errors.
+# Compile of part1.v failed with 2 errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 23:46:16 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.clock_delay
+# Loading work.downsampler
+quit -sim
+# End time: 23:46:35 on Jun 20,2023, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 23:46:45 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(28)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 28
+quit -sim
+# End time: 23:47:19 on Jun 20,2023, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v failed with 1 errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 23:47:49 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(28)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 28
+quit -sim
+# End time: 23:48:15 on Jun 20,2023, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# Compile of transmitter_reciever_tb.v was successful.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 23:48:20 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(28)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 28
+quit -sim
+# End time: 23:49:10 on Jun 20,2023, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# Compile of reciever.v failed with 1 errors.
+# Compile of transmitter_reciever_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of reciever.v failed with 3 errors.
+# Compile of transmitter_reciever_tb.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of reciever.v was successful.
+# Compile of transmitter_reciever_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 23:50:47 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(28)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 28
+quit -sim
+# End time: 23:51:11 on Jun 20,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# Compile of reciever.v was successful.
+# Compile of transmitter_reciever_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim transmitter_reciever_tb
+# vsim transmitter_reciever_tb 
+# Start time: 23:51:25 on Jun 20,2023
+# Loading work.transmitter_reciever_tb
+# Loading work.transmitter
+# Loading work.impulse_response
+# Loading work.multiplier
+# Loading work.reciever
+# Loading work.inverse_impulse_response
+# Loading work.downsampler
+add wave -position insertpoint  \
+sim:/transmitter_reciever_tb/symb_in \
+sim:/transmitter_reciever_tb/clk \
+sim:/transmitter_reciever_tb/reset \
+sim:/transmitter_reciever_tb/symb_out \
+sim:/transmitter_reciever_tb/out \
+sim:/transmitter_reciever_tb/downsampled_out
+run -all
+# ** Note: $stop    : C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v(28)
+#    Time: 590 ps  Iteration: 0  Instance: /transmitter_reciever_tb
+# Break in Module transmitter_reciever_tb at C:/Users/alber/Desktop/FPGA_audio_starter/transmitter_reciever_tb.v line 28
+quit -sim
+# End time: 23:51:49 on Jun 20,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# Compile of part1.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of part1.v was successful.
+# Compile of part1.v was successful.
+# Compile of part1.v was successful.
+# Compile of multiplierv2.v was successful.
+# Compile of reciever.v was successful.

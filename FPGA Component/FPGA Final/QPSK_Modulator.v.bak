@@ -1,0 +1,40 @@
+module QPSK_Modulator(in, symb_real_1, symb_imag_1,
+  symb_real_2, symb_imag_2, symb_real_3, symb_imag_3,
+  symb_real_4, symb_imag_4);
+  input [6:0] in;
+  output reg [15:0] symb_real_1, symb_imag_1;
+  output reg [15:0] symb_real_2, symb_imag_2;
+  output reg [15:0] symb_real_3, symb_imag_3;
+  output reg [15:0] symb_real_4, symb_imag_4;
+
+  always @(*) begin
+    case (in[6:5])
+      2'b00 : {symb_real_1, symb_imag_1} = {16'b0001011010100001, 16'b0001011010100001};
+      2'b01 : {symb_real_1, symb_imag_1} = {16'b1110100101011111, 16'b0001011010100001};
+      2'b10 : {symb_real_1, symb_imag_1} = {16'b0001011010100001, 16'b1110100101011111};
+      2'b11 : {symb_real_1, symb_imag_1} = {16'b1110100101011111, 16'b1110100101011111};
+      default : {symb_real_1, symb_imag_1} = 0;
+    endcase
+    case (in[4:3])
+      2'b00 : {symb_real_2, symb_imag_2} = {16'b0001011010100001, 16'b0001011010100001};
+      2'b01 : {symb_real_2, symb_imag_2} = {16'b1110100101011111, 16'b0001011010100001};
+      2'b10 : {symb_real_2, symb_imag_2} = {16'b0001011010100001, 16'b1110100101011111};
+      2'b11 : {symb_real_2, symb_imag_2} = {16'b1110100101011111, 16'b1110100101011111};
+      default : {symb_real_2, symb_imag_2} = 0;
+    endcase
+    case (in[2:1])
+      2'b00 : {symb_real_3, symb_imag_3} = {32'b00111111001101010000010011110011, 32'b00111111001101010000010011110011};
+      2'b01 : {symb_real_3, symb_imag_3} = {32'b10111111001101010000010011110011, 32'b00111111001101010000010011110011};
+      2'b10 : {symb_real_3, symb_imag_3} = {32'b00111111001101010000010011110011, 32'b10111111001101010000010011110011};
+      2'b11 : {symb_real_3, symb_imag_3} = {32'b10111111001101010000010011110011, 32'b10111111001101010000010011110011};
+      default : {symb_real_3, symb_imag_3} = 0;
+     endcase
+    case ({in[0],1'b0})
+      2'b00 : {symb_real_4, symb_imag_4} = {32'b00111111001101010000010011110011, 32'b00111111001101010000010011110011};
+      2'b01 : {symb_real_4, symb_imag_4} = {32'b10111111001101010000010011110011, 32'b00111111001101010000010011110011};
+      2'b10 : {symb_real_4, symb_imag_4} = {32'b00111111001101010000010011110011, 32'b10111111001101010000010011110011};
+      2'b11 : {symb_real_4, symb_imag_4} = {32'b10111111001101010000010011110011, 32'b10111111001101010000010011110011};
+      default : {symb_real_4, symb_imag_4} = 0;
+    endcase
+  end
+endmodule

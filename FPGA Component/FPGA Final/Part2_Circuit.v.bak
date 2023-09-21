@@ -1,0 +1,50 @@
+module Part2_Circuit(writedata_left, writedata_right, CLOCK_50, writedata_left_out, writedata_right_out, reset);
+	input [23:0] writedata_left, writedata_right;
+	input CLOCK_50, reset;
+	output reg [23:0] writedata_left_out, writedata_right_out;
+
+	reg [23:0] tapleft[7:0];
+	reg [23:0] tapright[7:0];
+
+	always @(posedge CLOCK_50) begin
+	  if (reset) begin
+	    writedata_left_out <= 0;
+	    writedata_right_out <= 0;
+	  end else begin
+	    tapleft[7] <= tapleft[6];
+    	    tapleft[6] <= tapleft[5];
+   	    tapleft[5] <= tapleft[4];
+   	    tapleft[4] <= tapleft[3];
+   	    tapleft[3] <= tapleft[2];
+  	    tapleft[2] <= tapleft[1];
+   	    tapleft[1] <= tapleft[0];
+   	    tapleft[0] <= writedata_left;
+	    tapright[7] <= tapright[6];
+   	    tapright[6] <= tapright[5];
+   	    tapright[5] <= tapright[4];
+   	    tapright[4] <= tapright[3];
+   	    tapright[3] <= tapright[2];
+   	    tapright[2] <= tapright[1];
+    	    tapright[1] <= tapright[0];
+    	    tapright[0] <= writedata_right;
+
+	    writedata_left_out <= (tapleft[7] >> 3) +
+				(tapleft[6] >> 3) +
+				(tapleft[5] >> 3) +
+				(tapleft[4] >> 3) +
+				(tapleft[3] >> 3) +
+				(tapleft[2] >> 3) +
+				(tapleft[1] >> 3) +
+				(tapleft[0] >> 3);
+
+	    writedata_right_out <= (tapright[7] >> 3) +
+				 (tapright[6] >> 3) +
+				 (tapright[5] >> 3) +
+				 (tapright[4] >> 3) +
+				 (tapright[3] >> 3) +
+				 (tapright[2] >> 3) +
+				 (tapright[1] >> 3) +
+				 (tapright[0] >> 3);
+	  end
+	end
+endmodule

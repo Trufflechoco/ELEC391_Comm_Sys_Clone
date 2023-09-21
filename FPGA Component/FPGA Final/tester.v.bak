@@ -1,0 +1,10 @@
+module tester(in1, in2, out);
+
+  input [15:0] in1, in2;
+  output reg [31:0] out;
+
+  always @(*) begin
+    out[31] <= in1[15]^in2[15];
+    out[31:0] <= in1[14:0]*in2[14:0];
+  end
+endmodule

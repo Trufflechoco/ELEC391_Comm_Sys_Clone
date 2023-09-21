@@ -1,0 +1,96 @@
+module transmitter(symb_in, symb_out, clk, reset, read_ready);
+
+  input clk, reset;
+
+  input read_ready;
+
+  input [15:0] symb_in;
+
+  output reg [15:0] symb_out;
+
+  integer i;
+
+  reg [15:0] symb_reg [0:30]; 
+  reg [1:0] counter;
+
+  wire [15:0] out1, out2, out3, out4, out5, out6, out7, out8,
+  out9, out10, out11, out12, out13, out14, out15, out16, out17, out18,
+  out19, out20, out21, out22, out23, out24 ,out25, out26, out27, out28,
+  out29, out30, out31;
+
+  wire [15:0] toc1, toc2, toc3, toc4, toc5, toc6, toc7, toc8, toc9, toc10,
+  toc11, toc12, toc13, toc14, toc15, toc16, toc17, toc18, toc19, toc20, toc21, toc22,
+  toc23, toc24, toc25, toc26, toc27, toc28, toc29, toc30, toc31;
+
+  impulse_response imp(out1, out2, out3, out4, out5, out6, out7, out8,
+  out9, out10, out11, out12, out13, out14, out15, out16, out17, out18,
+  out19, out20, out21, out22, out23, out24 ,out25, out26, out27, out28,
+  out29, out30, out31);
+
+  multiplier x1(symb_reg[0], out1, toc1);
+  multiplier x2(symb_reg[1], out2, toc2);
+  multiplier x3(symb_reg[2], out3, toc3);
+  multiplier x4(symb_reg[3], out4, toc4);
+  multiplier x5(symb_reg[4], out5, toc5);
+  multiplier x6(symb_reg[5], out6, toc6);
+  multiplier x7(symb_reg[6], out7, toc7);
+  multiplier x8(symb_reg[7], out8, toc8);
+  multiplier x9(symb_reg[8], out9, toc9);
+  multiplier x10(symb_reg[9], out10, toc10);
+  multiplier x11(symb_reg[10], out11, toc11);
+  multiplier x12(symb_reg[11], out12, toc12);
+  multiplier x13(symb_reg[12], out13, toc13);
+  multiplier x14(symb_reg[13], out14, toc14);
+  multiplier x15(symb_reg[14], out15, toc15);
+  multiplier x16(symb_reg[15], out16, toc16);
+  multiplier x17(symb_reg[16], out17, toc17);
+  multiplier x18(symb_reg[17], out18, toc18);
+  multiplier x19(symb_reg[18], out19, toc19);
+  multiplier x20(symb_reg[19], out20, toc20);
+  multiplier x21(symb_reg[20], out21, toc21);
+  multiplier x22(symb_reg[21], out22, toc22);
+  multiplier x23(symb_reg[22], out23, toc23);
+  multiplier x24(symb_reg[23], out24, toc24);
+  multiplier x25(symb_reg[24], out25, toc25);
+  multiplier x26(symb_reg[25], out26, toc26);
+  multiplier x27(symb_reg[26], out27, toc27);
+  multiplier x28(symb_reg[27], out28, toc28);
+  multiplier x29(symb_reg[28], out29, toc29);
+  multiplier x30(symb_reg[29], out30, toc30);
+  multiplier x31(symb_reg[30], out31, toc31);
+
+  always @(posedge clk) begin
+    if (reset) begin
+      for (i = 0; i < 31; i = i + 1) begin
+        symb_reg[i] <= 16'b0000000000000000;
+      end
+      symb_out = 16'b0000000000000000;
+    end else begin //symb_reg will be either 0.7071 or -0.7071 depending on symbol
+      if (read_ready == 1) begin
+        symb_reg[0] <= symb_in;
+      end else begin
+        symb_reg[0] <= 0;
+      end
+      symb_reg[1] <= symb_reg[0]; symb_reg[2] <= symb_reg[1];
+      symb_reg[3] <= symb_reg[2]; symb_reg[4] <= symb_reg[3];
+      symb_reg[5] <= symb_reg[4]; symb_reg[6] <= symb_reg[5];
+      symb_reg[7] <= symb_reg[6]; symb_reg[8] <= symb_reg[7];
+      symb_reg[9] <= symb_reg[8]; symb_reg[10] <= symb_reg[9];
+      symb_reg[11] <= symb_reg[10]; symb_reg[12] <= symb_reg[11];
+      symb_reg[13] <= symb_reg[12]; symb_reg[14] <= symb_reg[13];
+      symb_reg[15] <= symb_reg[14]; symb_reg[16] <= symb_reg[15];
+      symb_reg[17] <= symb_reg[16]; symb_reg[18] <= symb_reg[17];
+      symb_reg[19] <= symb_reg[18]; symb_reg[20] <= symb_reg[19];
+      symb_reg[21] <= symb_reg[20]; symb_reg[22] <= symb_reg[21];
+      symb_reg[23] <= symb_reg[22]; symb_reg[24] <= symb_reg[23];
+      symb_reg[25] <= symb_reg[24]; symb_reg[26] <= symb_reg[25];
+      symb_reg[27] <= symb_reg[26]; symb_reg[28] <= symb_reg[27];
+      symb_reg[29] <= symb_reg[28]; symb_reg[30] <= symb_reg[29];
+
+      symb_out <= toc1 + toc2 + toc3 + toc4 + toc5 + toc6 + toc7 + toc8 +
+                  toc9 + toc10 + toc11 + toc12 + toc13 + toc14 + toc15 +
+                  toc16 + toc17 + toc18 + toc19 + toc20 + toc21 + toc22 + toc23 + toc24 +
+                  toc25 + toc26 + toc27 + toc28 + toc29 + toc30 + toc31;
+    end
+  end
+endmodule

@@ -1,0 +1,13 @@
+module flipper_flopper(in, out, reset, clk);
+	input [23:0] in;
+	input clk, reset;
+	output reg [23:0] out;
+	always @(posedge clk) begin
+	  if (reset == 1) begin
+	    out <= 1'b0;
+	  end
+	  else begin
+	    out <= in;
+	  end
+	end
+endmodule

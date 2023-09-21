@@ -1,0 +1,56 @@
+module Part2_Circuit_tb();
+
+  reg [23:0] writedata_left, writedata_right;
+  reg clk, reset enable;
+  wire [23:0] writedata_left_out, writedata_right_out;
+  wire [23:0] checker;
+
+  assign checker = Part2_Circuit.writedata_left_out;
+
+  Part2_Circuit Part2_Circuit(.writedata_left(writedata_left),.enable(enable)
+    ,.CLOCK_50(clk),.reset(reset),.writedata_left_out(writedata_left_out)
+   ,.writedata_right_out(writedata_right_out),.writedata_right(writedata_right));
+
+  always begin
+    clk = 0; #5; clk = 1; #5;
+  end
+
+  initial begin
+    reset = 1; enable = 1; #10;
+    reset = 0; writedata_left = 0; #200;
+    writedata_left = 8; #7;
+    if (writedata_left_out == 1);
+    else $display("error, writedata_left_out != 1"); #3;
+    writedata_left = 16; #7;
+    if (writedata_left_out == 3);
+    else $display("error, writedata_left_out != 3"); #3;
+    writedata_left = 24; #7;
+    if (writedata_left_out == 6);
+    else $display("error, writedata_left_out != 6"); #3;
+    writedata_left = 16; #7;
+    if (writedata_left_out == 8);
+    else $display("error, writedata_left_out != 8"); #3;
+    writedata_left = 8; #7;
+    if (writedata_left_out == 9);
+    else $display("error, writedata_left_out != 9"); #3;
+    writedata_left = 8; #7;
+    if (writedata_left_out == 10);
+    else $display("error, writedata_left_out != 10"); #3;
+    writedata_left = 16; #7;
+    if (writedata_left_out == 12);
+    else $display("error, writedata_left_out != 12"); #3;
+    writedata_left = 8; #7;
+    if (writedata_left_out == 13);
+    else $display("error, writedata_left_out != 13"); #3;
+    writedata_left = 16; #7;
+    if (writedata_left_out == 14);
+    else $display("error, writedata_left_out != 14"); #3;
+    writedata_left = 0; #7;
+    if (writedata_left_out == 12);
+    else $display("error, writedata_left_out != 12"); #3;
+    writedata_left = 0; #7;
+    if (writedata_left_out == 9);
+    else $display("error, writedata_left_out != 9"); #3;
+    $stop;
+  end
+endmodule

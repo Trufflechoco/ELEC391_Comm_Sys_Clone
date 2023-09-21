@@ -1,0 +1,10 @@
+module float_multiplier(in1, in2, out);
+  input [31:0] in1, in2;
+  output [31:0] out;
+
+  assign out[31] = in1[31] ^ in2[31]);
+  assign out[30:23] = in1[30:23] + in2[30:23] - 8'b11111110;
+  assign out[22:0] = in1[22:0] * in2[22:0];
+
+
+endmodule

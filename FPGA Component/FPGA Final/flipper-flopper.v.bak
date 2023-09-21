@@ -1,0 +1,7 @@
+module flipper-flopper(in, out, clk);
+	input [23:0] in;
+	input clk;
+	output out;
+	always @(posedge clk)
+	end
+endmodule

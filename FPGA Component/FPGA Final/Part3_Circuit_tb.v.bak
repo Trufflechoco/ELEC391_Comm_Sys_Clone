@@ -1,0 +1,60 @@
+`timescale 1 ps / 1 ps
+module Part3_Circuit_tb();
+
+  reg [23:0] writedata;
+  reg clk, reset;
+  wire [23:0] writedata_out;
+  wire [23:0] counter;
+  wire [23:0] FIFO_out, accumulator, accumulator_out, accumulator_in;
+
+  assign counter = Part3_Circuit.counter;
+  assign FIFO_out = Part3_Circuit.data_out_FIFO;
+  assign accumulator = Part3_Circuit.Accumulator.accumulator;
+  assign accumulator_out = Part3_Circuit.accumulate_out;
+  assign accumulator_in = Part3_Circuit.accumulate_in;
+
+  Part3_Circuit_2 Part3_Circuit(.data_in(writedata),
+    .clk(clk),.reset(reset),.data_out(writedata_out));
+  
+  always begin
+    clk = 0; #5; clk = 1; #5;
+  end
+
+  initial begin
+    reset = 1; #10;
+    reset = 0; writedata = 128; #7;
+    if (writedata_out == 1);
+    else $display("error, writedata_out != 1"); #3;
+    writedata = 256; #7;
+    if (writedata_out == 3);
+    else $display("error, writedata_out != 3"); #3; 
+    writedata = 512; #7;
+    if (writedata_out == 6);
+    else $display("error, writedata_out != 6"); #3;
+    writedata = 256; #7;
+    if (writedata_out == 8);
+    else $display("error, writedata_out != 8"); #3;
+    writedata = 128; #7;
+    if (writedata_out == 9);
+    else $display("error, writedata_out != 9"); #3;
+    writedata = 128; #7;
+    if (writedata_out == 10);
+    else $display("error, writedata_out != 10"); #3;
+    writedata = 256; #7;
+    if (writedata_out == 12);
+    else $display("error, writedata_out != 12"); #3;
+    writedata = 128; #7;
+    if (writedata_out == 13);
+    else $display("error, writedata_out != 13"); #3;
+    writedata = 256; #7;
+    if (writedata_out == 15);
+    else $display("error, writedata_out != 15"); #3;
+    writedata = 0; #7;
+    if (writedata_out == 15);
+    else $display("error, writedata_out != 15"); #3;
+    writedata = 128; #7;
+    if (writedata_out == 16);
+    else $display("error, writedata_out != 16"); #3;
+    $stop;
+  end
+endmodule

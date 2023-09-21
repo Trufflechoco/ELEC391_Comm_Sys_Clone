@@ -1,0 +1,26 @@
+module Your_Circuit(CLOCK_50, reset, read_ready, write_ready, readdata_left, readdata_right, writedata_left, writedata_right, read, write);
+
+	input CLOCK_50;
+	input reset; 
+	input read_ready, write_ready;
+	output reg read, write;
+	input [23:0] readdata_left, readdata_right;
+	output reg [23:0] writedata_left, writedata_right;
+
+	always @(posedge CLOCK_50) begin
+	  if (!reset) begin
+	    write <= 1'b0;
+	    read <= 1'b1;
+	  end
+	  if (write_ready) begin
+	    write <= 1'b1;
+	    read <= 1'b0;
+	    writedata_left <= readdata_left;
+	    writedata_right <= readdata_right;
+	  end
+	  else if (!write_ready) begin
+	    write <= 1'b0;
+	    read <= 1'b1;
+	  end
+	end
+endmodule

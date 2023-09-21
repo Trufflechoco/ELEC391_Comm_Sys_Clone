@@ -1,0 +1,10 @@
+module noise_generator(clk, enable, q);
+  input clk, enable;
+  output [23:0] q;
+  reg [2:0] counter;
+  always @(posedge clk) begin
+    if (enable) 
+      counter = counter + 1'b1;
+  end
+  assign q = {{10{counter[2]}}, counter, 11'd0};
+endmodule

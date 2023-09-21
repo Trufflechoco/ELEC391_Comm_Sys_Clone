@@ -1,0 +1,31 @@
+`timescale 1 ps/ 1ps
+module FIFO_Module_tb();
+  reg clear, clk;
+  reg [23:0] data_in;
+  wire [23:0] q;
+  reg rdreq;
+
+  FIFO_Quartus FIFO_Module(.clock(clk),.sclr(clear),.data(data_in),.q(q),.rdreq(rdreq),.wrreq(1'b1));
+
+  always begin
+    clk = 0; #5; clk = 5; #5;
+  end
+
+  initial begin
+    clear = 0; data_in = 15; rdreq = 0; #10; 
+    data_in = 7; #10;
+    data_in = 3; #10;
+    data_in = 1; #10;
+    #30; rdreq = 1; #10;
+    if (q == 15);
+    else $display("error, q != 15"); #10;
+    if (q == 7);
+    else $display("error, q != 7"); #10;
+    if (q == 3);
+    else $display("error, q != 3"); #10;
+    if (q == 1);
+    else $display("error, q != 1"); #10;
+    $stop;
+  end
+
+endmodule
